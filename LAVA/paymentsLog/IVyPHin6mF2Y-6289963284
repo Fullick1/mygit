@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "result": {
+    "invoice_id": 1816137,
+    "status": "active",
+    "hash": "IVyPHin6mF2Y",
+    "asset": "USDT",
+    "amount": "1",
+    "pay_url": "https://t.me/CryptoBot?start=IVyPHin6mF2Y",
+    "created_at": "2023-05-12T10:21:06.305Z",
+    "allow_comments": true,
+    "allow_anonymous": true
+  }
+}

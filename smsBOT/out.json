@@ -1,0 +1,11 @@
+{
+  "result": {
+    "status": 401,
+    "type": "second_factor_required",
+    "message": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0432\u0442\u043e\u0440\u043e\u0439 \u0444\u0430\u043a\u0442\u043e\u0440.",
+    "messageTitle": "\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430",
+    "sessionDataKey": "380e0fad-103f-411b-9575-dae108106536",
+    "transactionId": "6732850312033435620",
+    "username": "29522225"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "second_factor_required",
+  "message": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0432\u0442\u043e\u0440\u043e\u0439 \u0444\u0430\u043a\u0442\u043e\u0440.",
+  "message_title": "\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430",
+  "additional_properties": {
+    "domain": "guest",
+    "mobile": "+7 *** *** ** 41",
+    "sessionDataKey": "91e06506-28c5-49c3-95f2-c92b1bae7046",
+    "transactionId": "5940143325703543323",
+    "username": "56341676"
+  }
+}
