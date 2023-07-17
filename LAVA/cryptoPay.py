@@ -8,7 +8,7 @@ import sqlite3
 
 
 
-
+api_pay = 'TUT TVOI TOKEN'
 
 def create_payorder(message): 
     from main import bot,types
@@ -17,7 +17,7 @@ def create_payorder(message):
         bot.send_message(message.chat.id,'<b>✖️Транзакция отменена</b>')
     else:
         url = 'https://pay.crypt.bot/api/createInvoice'
-        headers = {'Crypto-Pay-API-Token': '100211:AAVPAtnqSJQdD8f1UTsAHxXcMDjW2NXEH1d'}
+        headers = {'Crypto-Pay-API-Token': f'{api_pay}'}
         payload = {
             'asset': 'USDT',
             'amount': msg_pay,
@@ -68,7 +68,7 @@ def checkPay(name):
             while i == 0:
                 time.sleep(5)
                 url = 'https://pay.crypt.bot/api/getInvoices'
-                headers = {'Crypto-Pay-API-Token': '100211:AAVPAtnqSJQdD8f1UTsAHxXcMDjW2NXEH1d'}
+                headers = {'Crypto-Pay-API-Token': f'{api_pay}'}
                 payload = {
                     'asset': f'{asset}',
                     'invoice_ids': f'{ivoice}'
